@@ -18,7 +18,7 @@ compile: true
 
 ```ejs
 <% for(var i=0; i < icons.length; i++) { %>
-<svg width="32" height="32"><use xlink:href="#<%- icons[i] %>" /></svg>
+<svg class="aigis-icon" width="32" height="32"><use xlink:href="#<%- icons[i] %>" /></svg>
 <% } %>
 ```
 
@@ -40,7 +40,7 @@ compile: true
 
 ```ejs
 <% for(var i=0; i < icons.length; i++) { %>
-<svg width="32" height="32"><use xlink:href="#<%- icons[i] %>" /></svg>
+<svg class="aigis-icon" width="32" height="32"><use xlink:href="#<%- icons[i] %>" /></svg>
 <% } %>
 ```
 
