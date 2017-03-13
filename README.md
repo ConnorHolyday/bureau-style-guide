@@ -86,6 +86,8 @@ The code for this can be found at the bottom of the style guide's `index.ejs`. I
 	- The icon-system is filled with re-usable icons that are modifiable via CSS.
 	- To add to the icon-system the SVG must be placed at `/src/images/icons/` and then you run `gulp svgstore`
 
+All icons can be found in the `Design/Icons` page of the style guide; this page is generated from `tools/_icons.scss`.
+
 ---
 
 ## **Style Guide**
