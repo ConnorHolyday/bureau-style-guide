@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Pull Request template
 - Label information to readme
 - Design/Colours page
+- Design/Icons page
 
 ### CHANGED
 - Moved contributing to .github
