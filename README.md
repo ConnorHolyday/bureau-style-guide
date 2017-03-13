@@ -163,6 +163,29 @@ colours: [
 compile: true
 ---
 ```
+
+### Icons
+
+Style guide icons are handled through `_icons.scss`. The markup is created through compiling an EJS code block, you just have to provide the data. The documentation parameters accept an icon dataset that must be filled out as follows:
+- Icon name
+
+```
+---
+name: Social
+category:
+ - Design
+ - Design/Icons
+icons: [
+ 'icon-facebook',
+ 'icon-google',
+ 'icon-linkedin',
+ 'icon-twitter',
+ 'icon-youtube',
+ 'icon-mail'
+ ]
+compile: true
+---
+```
 ---
 ## **HTACCESS**
 
